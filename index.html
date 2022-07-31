@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div>
+                <input type="text" id="screen">
+                <table>
+                    <tr>
+                        <td><button onclick="buttonclicked('(')" class="sign">(</button></td>
+                        <td><button onclick="buttonclicked(')')" class="sign">)</button></td>
+                        <td><button onclick="buttonclicked('ans')" class="sign">ans</button></td>
+                        <td><button onclick="buttonclicked('del')" class="sign">del</button></td>
+                        <td><button onclick="buttonclicked('clear')" class="sign">clear</button></td>  
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclicked('7')" class="num">7</button></td>
+                        <td><button onclick="buttonclicked('8')" class="num">8</button></td>
+                        <td><button onclick="buttonclicked('9')" class="num">9</button></td>
+                        <td><button onclick="buttonclicked('%')" class="signs">%</button></td>
+                        <td><button onclick="buttonclicked('&radic;')" class="signs">&radic;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclicked('4')" class="num">4</button></td>
+                        <td><button onclick="buttonclicked('5')" class="num">5</button></td>
+                        <td><button onclick="buttonclicked('6')" class="num">6</button></td>
+                        <td><button onclick="buttonclicked('*')" class="signs">*</button></td>
+                        <td><button onclick="buttonclicked('/')" class="signs">&divide;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclicked('1')" class="num">1</button></td>
+                        <td><button onclick="buttonclicked('2')" class="num">2</button></td>
+                        <td><button onclick="buttonclicked('3')" class="num">3</button></td>
+                        <td><button onclick="buttonclicked('+')" class="signs">&plus;</button></td>
+                        <td><button onclick="buttonclicked('-')" class="signs">&minus;</button></td>
+        
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclicked('.')" class="signs">.</button></td>
+                        <td><button onclick="buttonclicked('0')" class="num">0</button></td>
+                        <td colspan="3"><button onclick="buttonclicked('enter')" class="enter"">Enter</button></td> 
+                     </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="cal.js"></script>
+</html>

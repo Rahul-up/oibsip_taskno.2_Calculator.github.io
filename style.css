@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(86, 86, 241);
+}
+.container{
+   text-align: center;
+   margin-top: 110px;
+   
+
+}
+.calculator{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 345px;
+    height: 475px;
+    background-color: aliceblue;
+
+}
+#screen{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    width: 90%;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(222, 222, 248);
+}
+table{
+    margin: auto;
+}
+table tr td button{
+    width: 60px;
+    height: 65px;
+    margin: 1px;
+}
+.sign{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 55px;
+    background-color:  rgb(162, 162, 236);
+    font-size: 20px;
+}
+.signs{
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(162, 162, 236);
+    font-size: 30px;
+}
+.num{
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(222, 222, 248);
+    font-size: 20px;
+}
+.enter{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(86, 86, 241);
+    font-size: 20px;
+}
